@@ -1,6 +1,6 @@
 import torch 
 import numpy as np
-from tensorboard import SummaryWriter
+from tensorboardX import SummaryWriter
 import editdistance
 import torch.nn as nn
 import torch.nn.init as init
