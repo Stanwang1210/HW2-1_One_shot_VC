@@ -1,4 +1,4 @@
-. vctk/preprocess/vctk.config
+. preprocess/vctk.config
 
 if [ $stage -le 0 ]; then
     python3 make_datasets_vctk.py $raw_data_dir/wav48 $raw_data_dir/speaker-info.txt $data_dir $n_out_speakers $test_prop $sample_rate $n_utt_attr
